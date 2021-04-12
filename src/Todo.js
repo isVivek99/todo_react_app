@@ -54,7 +54,7 @@ export default function Todo(props) {
                 <div className={classes.paper}>
                     <h1>I am a modal</h1>
                     <Input placeholder={props.todo.todo} value={input} onChange={(event)=>{setInput(event.target.value)}}/>
-                    <Button onClick={updateTodo}>update todo</Button>    
+                    <Button variant="contained" color="secondary" onClick={updateTodo}>update todo</Button>    
                 </div>    
             </Modal>
             
