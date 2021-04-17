@@ -31,7 +31,7 @@ function App() {
         timestamp: firebase.firestore.FieldValue.serverTimestamp()
       })
       setInput("");
-      event.preventDefault();//clear up input
+      event.preventDefault();//prevents default stting associated w/ submit in for form
     }
     
   
